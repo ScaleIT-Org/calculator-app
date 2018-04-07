@@ -1,0 +1,6 @@
+version: '2'
+services:
+   calculator:
+      build: "Domain Software/calculator-app/."
+      ports:
+         - "49650:80"

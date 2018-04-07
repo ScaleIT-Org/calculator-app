@@ -2,8 +2,6 @@
 
 ## How to run
 
-	docker build -t calculator-app .
-	docker run -p 49650:80 calculator-app
+	docker-compose build
+	docker-compose up
 	Visit localhost:49650 
-	
-
