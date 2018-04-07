@@ -1,6 +1,7 @@
 version: '2'
 services:
    calculator:
+      image: scaleit-app-pool.ondics.de:5000/scaleit-app-pool/calculator:1.0
       build: "Domain Software/calculator-app/."
       ports:
          - "49650:80"
